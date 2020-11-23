@@ -136,4 +136,27 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: start;
+  z-index: 998;
+  transition: all 650ms ease-in-out;
+}
+
+.nav-list.active{
+  right: 0;
+}
+
+.nav-item{
+  margin: 1.2rem 0;
+}
+
+.nav-link{
+  opacity: 1;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #cecece;
+  letter-spacing: 1.5px;
+}
+
+.nav-link:hover{
+  color: rgba(106, 98, 246, 1);
 }
