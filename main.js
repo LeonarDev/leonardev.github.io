@@ -12,7 +12,6 @@ selectElement(".burguer-menu-icon").addEventListener("click", ()=>{
       link.style.animation = ""
     }else{
       link.style.animation = `navLinkAnimated 0.5s ease forwards ${ index/7 + 0.5}s`
-
     }
   })
 });

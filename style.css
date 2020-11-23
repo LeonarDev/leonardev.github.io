@@ -220,7 +220,7 @@ nav{
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 2s steps(35), blink 1s ease-in-out 7s infinite;
+  animation: typing 2.5s steps(35), blink 1s ease-in-out 3s infinite;
   width: 35ch;
   margin: auto;
   border-right: 4px solid rgba(255, 255, 255, 1);
