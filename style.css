@@ -300,6 +300,8 @@ nav{
   transition: color 650ms;
   margin-top: 2rem;
   font-size: 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .scroll-down i:hover{
