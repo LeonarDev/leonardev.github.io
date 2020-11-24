@@ -21,7 +21,6 @@ html{
 a{
   text-decoration: none;
   color: rgb(106, 98, 246);
-  /* 3, 155, 155 */
 }
 
 a:hover{
@@ -43,7 +42,6 @@ img{
 }
 
 /* header */
-
 header{
   width: 100%;
   height: 5rem;
@@ -61,7 +59,7 @@ header{
 }
 
 .nav-brand{
-  width: 40rem;
+  width: 8rem;
 }
 
 nav{
@@ -80,7 +78,7 @@ nav{
   background: linear-gradient(
     135deg,
     rgba(106, 98, 246, 1) 0%,
-    rgb(249, 100, 100) 100%
+    rgb(255, 255, 255) 100%
   );
 }
 
@@ -90,7 +88,7 @@ nav{
   background: linear-gradient(
     135deg,
     rgba(106, 98, 246, 1) 0%,
-    rgb(249, 100, 100) 100%
+    rgb(255, 255, 255) 100%
   );
 }
 
@@ -102,7 +100,7 @@ nav{
   background: linear-gradient(
     135deg,
     rgba(106, 98, 246, 1) 0%,
-    rgb(249, 100, 100) 100%
+    rgb(255, 255, 255) 100%
   );
 }
 
@@ -273,7 +271,7 @@ nav{
 }
 
 .intro-btn{
-  display: flex;
+  display: inline-block;
   justify-content: center;
 }
 
@@ -299,9 +297,7 @@ nav{
   color: #fafafa;
   transition: color 650ms;
   margin-top: 2rem;
-  font-size: 5rem;
-  display: flex;
-  flex-direction: column;
+  font-size: 10rem;
 }
 
 .scroll-down i:hover{
