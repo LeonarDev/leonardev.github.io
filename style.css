@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap');
 
 /* Global styles */
-
 *,
 *::before,
 *::after{
@@ -230,6 +229,11 @@ nav{
   border-right: 4px solid rgba(255, 255, 255, 1);
 }
 
+.trybe{
+  font-weight: 800;
+  color: #429070;
+}
+
 @keyframes typing{
   0%{
     width: 0ch;
@@ -303,7 +307,6 @@ nav{
 }
 
 /* About */
-
 .about{
   width: 100%;
   min-height: 100vh;
@@ -355,7 +358,6 @@ hr{
 }
 
 /* Services */
-
 .services{
   padding: 3rem 0;
   min-width: 100vh;
