@@ -1,3 +1,15 @@
+#### Este é o primeiro projeto. Desenvolvido do zero apenas com HTML e CSS, sem utilização de flexbox.
+
+Link: https://leonardev.github.io/projects/lessons-learned/
+
+#### Objetivos:
+- Organização do código. 
+- Construir a estrutura do HTML de forma semântica
+- Realizar commits organizados no repositório.
+- Utilizar tags corretas, bem indentadas, com classes e ids adequados.
+- Construir a estrutura do CSS evitando repetição. Combinando e agrupando classes CSS bem definidas.
+
+<!--
 # Boas vindas ao repositório do projeto Lições Aprendidas!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
@@ -49,13 +61,16 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-09-project-lessons-learned/pulls) e confira que o seu _Pull Request_ está criado
----
 
 # Entregáveis
 
 Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
 
 Este _Pull Request_ deverá conter os arquivos `index.html` e `style.css`, que conterão seu código HTML e CSS, respectivamente.
+
+#### ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
+
+Você pode adicionar outros arquivos se julgar necessário.
 
 ## Prazo para entrega
 
@@ -65,13 +80,9 @@ O Prazo para entrega é de **7 dias corridos** após o último dia de projeto.
 
 Vale ressaltar que os projetos podem ter mais de um dia de duração, por isso o prazo de **7 dias** é contado à partir do último dia de projeto.
 
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
+Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
 
 Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
 
 ## Requisitos do projeto
 
@@ -79,8 +90,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
 ![exemplo](./exemplo.png)
 
-
-## ⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
+#### ⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
 
 O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
 
@@ -113,7 +123,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 * Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
 
----
+-->
 
 ## Requisitos Obrigatórios:
 
