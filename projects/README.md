@@ -19,6 +19,13 @@ Developed with JavaScript, HTML and CSS.
 Developed with JavaScript, HTML and CSS.
 <hr>
 
+### Shopping Cart: Consuming "Mercado-Livre" API
+- [Web page](https://leonardev.github.io/projects/shopping-cart/)
+- [Repository](https://github.com/LeonarDev/leonardev.github.io/tree/main/projects/shopping-cart)
+
+Developed with JavaScript, HTML and CSS.
+<hr>
+
 <!--
 ### 
 - [Web page]()
@@ -28,6 +35,8 @@ Developed with JavaScript, HTML and CSS.
 ### 
 - [Web page]()
 - [Repository]()
+
+Developed with JavaScript, HTML and CSS.
 <hr>
 
 ### 
