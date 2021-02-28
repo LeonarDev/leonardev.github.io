@@ -27,7 +27,6 @@ Developed with JavaScript, HTML and CSS.
 <hr>
 
 ### Zoo Functions
-- [Web page](
 - [Repository](https://github.com/LeonarDev/leonardev.github.io/tree/main/projects/zoo-functions))
 
 Developed with JavaScript and EcmaScript6 Higher-Order functions.
