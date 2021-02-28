@@ -25,7 +25,7 @@ Developed with **JavaScript, HTML and CSS**.
 Developed with JavaScript and **EcmaScript6 Higher-Order functions**.
 <hr>
 
-### Shopping Cart: Consuming "Mercado-Livre" API
+### Shopping Cart: "Mercado-Livre" API
 - [Web page](https://leonardev.github.io/projects/shopping-cart/)
 - [Repository](https://github.com/LeonarDev/leonardev.github.io/tree/main/projects/shopping-cart)
 
