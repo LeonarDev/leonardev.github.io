@@ -26,17 +26,18 @@ Developed with JavaScript, HTML and CSS.
 Developed with JavaScript, HTML and CSS.
 <hr>
 
+### Tests with Jest
+- [Repository](https://github.com/LeonarDev/leonardev.github.io/tree/main/projects/jest)
+
+Developed with JavaScript, ES6 and Jest framework.
+<hr>
+
 <!--
 ### 
 - [Web page]()
 - [Repository]()
-<hr>
 
-### 
-- [Web page]()
-- [Repository]()
-
-Developed with JavaScript, HTML and CSS.
+Developed with JavaScript, ES6 and Jest framework.
 <hr>
 
 ### 
