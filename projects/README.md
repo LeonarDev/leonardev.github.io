@@ -26,41 +26,36 @@ Developed with JavaScript, HTML and CSS.
 Developed with JavaScript, HTML and CSS.
 <hr>
 
+### Zoo Functions
+- [Web page](
+- [Repository](https://github.com/LeonarDev/leonardev.github.io/tree/main/projects/zoo-functions))
+
+Developed with JavaScript and EcmaScript6 Higher-Order functions.
+<hr>
+
+### ES6 and Unit Tests
+- [Repository](https://github.com/LeonarDev/leonardev.github.io/tree/main/projects/es6-and-unit-tests)
+
+Developed with JavaScript, ES6 and unit tests.
+<hr>
+
 ### Tests with Jest
 - [Repository](https://github.com/LeonarDev/leonardev.github.io/tree/main/projects/jest)
 
 Developed with JavaScript, ES6 and Jest framework.
 <hr>
 
+
+
+
+
 <!--
+
 ### 
-- [Web page]()
-- [Repository]()
+- [Web page](
+- [Repository](https://github.com/LeonarDev/leonardev.github.io/tree/main/projects/))
 
 Developed with JavaScript, ES6 and Jest framework.
 <hr>
 
-### 
-- [Web page]()
-- [Repository]()
-<hr>
-
-### 
-- [Web page]()
-- [Repository]()
-<hr>
-
-### 
-- [Web page]()
-- [Repository]()
-<hr>
-
-### 
-- [Web page]()
-- [Repository]()
-<hr>
-
-### 
-- [Web page]()
-- [Repository]()
 -->
