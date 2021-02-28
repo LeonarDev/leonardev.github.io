@@ -44,7 +44,12 @@ Developed with JavaScript, ES6 and **Unit Tests**.
 Developed with JavaScript, ES6 and **Jest framework**.
 <hr>
 
+### Movie Card Library
+- [Web page](https://leonardev.github.io/projects/movie-cards-library-stateless/)
+- [Repository](https://github.com/LeonarDev/leonardev.github.io/tree/main/projects/movie-cards-library-stateless)
 
+Developed with **React**.
+<hr>
 
 
 
