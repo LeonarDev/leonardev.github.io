@@ -1,151 +1,135 @@
-html {
-  background-color: rgb(25, 25, 25);
-  font-family: Share Tech Mono, monospace;
-}
-
 body {
+  background-image: url('img/bg5.jpeg');
+  font-family: sans-serif;
+  height: 100%;
   margin: 0;
-  min-width: 250px;
+  margin-bottom: -40px;  
 }
 
-/* Style the header */
 header {
-  background-color: rgb(100, 100, 250);
-  color: black;
-  padding: 30px 40px;
-  text-align: center;
+  background-color: rgba(0 , 0 , 0 , 0.3);
+  font-size: 30px;
+  height: 100px;
+  padding-top: 1px;
 }
 
-/* Clear floats after the header */
-header:after {
-  clear: both;
-  content: "";
-  display: table;
+.botao {
+  box-shadow: 1px 1px 3px rgb(58 , 58 , 58), 0 0 0.5em rgb(24, 23, 23);
+  cursor: pointer;
+  height: 25px;
+  margin: 0 3px;
 }
 
-/* Style the input */
-input {
-  border: none;
-  border-radius: 0;
-  float: left;
-  font-size: 16px;
+.circulo {
+  background-image: url('img/rocket.png');
+  background-position: top;
+  background-size: cover;
+  border: rgba(0 , 0 , 0 , 0.5) double 2px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 70px;
+  opacity: 0.2;
+  position: absolute;
+  right: 28px;
+  top: 100px;
+  width: 70px;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(182, 20, 20);
+}
+
+.controles {
+  margin: 7px auto;
+  text-align-last: center;
+}
+
+fieldset {
+  background-color: rgba(240, 231, 231, 0.6);
+  border-radius: 5px;
   margin: 0;
-  padding: 10px;
-  width: 75%;
-  box-sizing: border-box;
-}
-
-/* Remove margins and padding from the list */
-ol {
-  margin: 0;
+  max-height: 600px;
+  min-height: 300px;
   padding: 0;
 }
 
-/* Style the list items */
-ol li {
-  background: #eee;
-  cursor: pointer;
-  font-size: 18px;
-  list-style-type: none;
-  padding: 12px 8px 12px 40px;
-  position: relative;
-  transition: 0.2s;
-  /* make the list items unselectable */
-  user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Set all odd list items to a different color (zebra-stripes) */
-ol li:nth-child(odd) {
-  background: rgb(249, 249, 249);;
-}
-
-/* Darker background-color on hover */
-ol li:hover {
-  background: rgb(200, 200, 200);
-}
-
-/* When clicked on, add a background color and strike out text */
-ol li .completed {
-  text-decoration: line-through;
-}
-
-ol li .selected {
-  background: rgb(128, 128, 128);
-}
-
-/* Add a "completed" mark when clicked on */
-.completed::before {
-  content: '';
-  position: absolute;
-  border-color: rgb(100, 100, 250);
-  border-style: solid;
-  border-width: 0 2px 2px 0;
-  top: 10px;
-  left: 16px;
-  transform: rotate(45deg);
-  height: 15px;
-  width: 7px;
-}
-
-/* Style the close button */
-.close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
-}
-
-.close:hover {
-  background-color: rgb(100, 100, 250);
-  color: white;
-}
-
-/* Style the "Add" button */
-#criar-tarefa {
-  background: #d9d9d9;
-  border: none;
-  border-radius: 0;
-  color: #555;
-  cursor: pointer;
-  float: left;
-  font-size: 16px;
-  padding: 10px;
+.funcionamento {
+  background-color: rgba(0 , 0 , 0 , 0.8);
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin-top: 100px;
   text-align: center;
-  transition: 0.3s;
-  width: 25%;
+  color: aliceblue;
 }
 
-#criar-tarefa:hover {
-  background-color: rgb(187, 187, 187);
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 1em;
 }
 
-#remover-selecionado {
-  border: none;
-  height: 100%;
+legend {
+  font-size: 40px;
+}
+
+li {
+  font-size: 23px;
+  font-weight: bolder;
+  line-height: 25px;
+  list-style-type: decimal-leading-zero;
+  padding-left: 5px;
+}
+
+.lista-tarefas {
+  max-height: 380px;
+  overflow-y: scroll;
+}
+
+main {
+  height: 535px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  position: relative;
+  width: 500px;
+}
+
+.selecionado {
+  background-color: rgb(66, 66, 66);
+  color: white;
+  width: 96%;
+}
+
+.selecionado::marker {
+  color: black;
+}
+
+.tarefas {
+  text-align: center;
+}
+
+.texto-tarefa {
+  border-radius: 3px;
+  box-shadow: 0 0 0.2em white;
+  height: 21px;
+  opacity: 0.7;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 250px;
 }
 
 .page-footer {
-  background-color: rgb(10, 10, 10);
-  color: rgb(73, 73, 73);
-  font-size: 1rem;
+  background-color: rgba(0 , 0 , 0 , 0.7);
+  bottom: 0;
+  color: rgb(190, 188, 188);
+  display: block;
+  font-size: 16px;
   margin-top: 50px;
   padding: 20px;
+  position: fixed;
   text-align: center;
-}
-
-a {
-  color: rgb(100, 100, 250);
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgba(250, 100, 100, 1);
-}
-
-#controlButtons {
-  margin-top: 30px;
-  text-align: center;
+  width: 100%;
 }
