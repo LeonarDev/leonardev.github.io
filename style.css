@@ -415,6 +415,22 @@ hr{
 }
 
 /* Profects */
+.warning {
+  font-size: 1.5rem;
+  -webkit-animation: altrclr 3s infinite alternate;  
+  -webkit-transform:scale(1);
+}
+
+@-webkit-keyframes altrclr{
+  0%{
+    color: rgb(106, 98, 246);
+  }
+  100%{
+    color: rgb(249, 100, 100);
+  }
+}
+
+
 .projects{
   padding: 3rem 0;
   min-height: 100vh;
@@ -548,7 +564,7 @@ footer a{
     top: 55%
   }
   .main-message h2{
-    letter-spacing: 1rem;
+    letter-spacing: 0.9rem;
     font-size: 1.5rem;
   }
   .main-message h3{
