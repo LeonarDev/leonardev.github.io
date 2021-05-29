@@ -1,0 +1,18 @@
+body {
+  background-color: #181818;
+  box-sizing: border-box;
+  color: #d4d4d4;
+}
+
+.main-header {
+  align-items: center;
+  background-color: #181818;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+}
+
+.main-title {
+  color: #E50914;
+}
+

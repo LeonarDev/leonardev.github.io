@@ -1,0 +1,19 @@
+.add-card-button {
+  background-color: #E50914;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  margin: 15px 15vw;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.movie-list {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
